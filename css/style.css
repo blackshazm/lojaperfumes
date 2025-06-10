@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+/* Global styles will go here */
+/* Basic Body Styling */
+body {
+  background-color: #FCFBF4; /* Off-white, very light cream - close to off-white/champagne */
+  font-family: 'Lato', sans-serif; /* Placeholder, will be confirmed with Google Fonts import */
+  color: #4A4A4A; /* Dark gray, softer than pure black */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Basic Heading Styling */
+h1, h2, h3, h4, h5, h6 { /* Applied to all heading levels for consistency */
+  font-family: 'Playfair Display', serif;
+  color: #333333; /* A slightly darker or more prominent color for headings, can be adjusted */
+  margin-top: 1.5em; /* Space above headings */
+  margin-bottom: 0.75em; /* Space below headings */
+  font-weight: 700; /* Bolder weight for Playfair Display */
+}
+
+/* Specific adjustments if needed, e.g., for h1 in Hero */
+.hero h1 {
+  font-size: 2.5em; /* Larger font for hero slogan */
+  color: #2c2c2c; /* Can be a distinct color */
+  margin-bottom: 0.5em;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: #FFFFFF; /* White background for the nav */
+  padding: 1em 2em; /* Padding around the navigation items */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list bullets */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Arrange items horizontally */
+  justify-content: center; /* Center navigation items */
+}
+
+nav ul li {
+  margin: 0 1em; /* Spacing between navigation items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #5E412F; /* A sophisticated brown, could be an accent color - placeholder */
+  font-weight: 700; /* Bolder font for nav links */
+  padding: 0.5em 0;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #d4af37; /* Gold accent for hover/focus, as per palette */
+  border-bottom: 2px solid #d4af37; /* Optional: underline on hover */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333333; /* Dark background for the footer */
+  color: #FCFBF4; /* Light text color, matching the body's off-white */
+  padding: 2em 2em; /* Padding around the footer content */
+  text-align: center; /* Center align the text in the footer */
+  margin-top: 3em; /* Space above the footer */
+}
+
+footer ul {
+  list-style-type: none; /* Remove default list bullets */
+  margin: 0 0 1em 0; /* Margin below the list if there's more content */
+  padding: 0;
+  display: flex; /* Arrange items horizontally */
+  justify-content: center; /* Center navigation items */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens if needed */
+}
+
+footer ul li {
+  margin: 0.5em 1em; /* Spacing between footer links */
+}
+
+footer ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #FCFBF4; /* Light text color for links */
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover,
+footer ul li a:focus {
+  color: #d4af37; /* Gold accent for hover/focus */
+}
+
+/* Add a class for copyright or other text if not in a list */
+.footer-copyright {
+  font-size: 0.9em;
+  margin-top: 1em;
+  color: #cccccc; /* Lighter gray for copyright */
+}
